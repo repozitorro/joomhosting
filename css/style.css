@@ -280,3 +280,90 @@ a {
     right: 0;
     text-align: center;
 }
+
+.footer {
+    background-color: #304054;
+    color: #718db2;    
+    padding: 80px 0 125px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col__logo {
+    width: 284px;
+}
+
+.footer__logo {
+    margin-bottom: 30px;
+}
+.footer__text {
+    font-size: 13px;
+    line-height: 22px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer__title {
+    font-family: 'Roboto', sans-serif;   
+    font-size: 16px;
+    font-weight: 700;
+    color: #d0e4ff;
+    margin-bottom: 30px;
+}
+
+.footer-menu {
+    width: 165px;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__list  a {
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: #718db2;    
+}
+
+.footer-form {
+    width: 263px;
+}
+
+.footer-form input, 
+.footer-form textarea {
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background-color: transparent;
+    height: 38px;
+    display: block;
+    width: 100%;
+    padding: 0 12px;
+}
+
+.footer-form input::placeholder, 
+.footer-form textarea::placeholder {
+    font-family: 'Lato', sans-serif;
+    color: #718db2;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.footer-form textarea {
+    padding: 12px;
+    height: 85px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.footer-form button {
+    font-family: 'Roboto', sans-serif;   
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    background-color: #2575e7;
+    padding: 10px;
+    cursor: pointer;
+}
