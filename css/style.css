@@ -39,6 +39,17 @@ a {
     align-items: center;
 }
 
+.btn__menu {
+    width: 40px;
+    display: none;
+}
+
+.btn__menu div {
+    height: 5px;
+    background-color: rgb(54, 54, 54);
+    margin-bottom: 5px;
+}
+
 .menu__list {
     display: flex;
 }
@@ -381,15 +392,15 @@ a {
     margin: 0 -50px;
 }
 
-.reviews-slider .slick-track {
+.reviews-slider .slick-slide {
     margin: 0 50px;
+    padding-bottom: 70px;
 }
 
 .reviews-slider .slick-dots {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
 }
 
 .reviews-slider .slick-dots li {
